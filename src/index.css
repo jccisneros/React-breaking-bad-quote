@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@900&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
+* {
+  margin:0 ;
+}
+html {    
+  height: 130%;
+}
+
+body {      
+  background: rgb(1, 122, 51);
+  background: linear-gradient(120deg, rgb(0, 125, 53) 0%, rgb(0, 125, 53) 40%, rgb(11, 82, 73) 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;  
+  font-weight: bold;
+  letter-spacing: .6rem;
+}
+
+#root {
+  width: 100%;
+}
+
+.vector{
+  display: none;
+}
+
+@media (min-width:768px) {  
+  html {    
+    height: 100%;
+  }
+  .vector{
+    display: inline-block;
+  }
+}
